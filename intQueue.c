@@ -18,7 +18,7 @@ void initialise(queue *q) {
 
 void enqueue(queue *q, int value) {
     if (q->size == CAPACITY) {
-        printf("Warning: Cannot push, queue is full!\n");
+        printf("Warning: Cannot enqueue, queue is full!\n");
         return;
     }
     if (q->size == 0) {
