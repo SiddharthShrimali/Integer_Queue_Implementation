@@ -7,7 +7,7 @@ typedef struct intQueue {
     int size; //no of elements in queue
     int front; //first element of queue
     int back; //last element of queue
-    int data[CAPACITY]; //pointer to array
+    int data[CAPACITY]; //fixed array
 } queue;
 
 void initialise(queue *q) {
